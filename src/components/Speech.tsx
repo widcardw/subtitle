@@ -33,7 +33,7 @@ export default defineComponent({
       <>
         <div
           class={['flex-(~ col)', 'm-2']}
-      >
+        >
           <div
             icon-btn
             class={{

@@ -25,6 +25,5 @@ module.exports = {
     'react/jsx-equals-spacing': [2, 'never'],
     'react/jsx-tag-spacing': [2, { beforeSelfClosing: 'proportional-always', beforeClosing: 'proportional-always' }],
     'react/jsx-wrap-multilines': [2, { declaration: 'parens', assignment: 'parens', return: 'parens', arrow: 'parens', condition: 'parens', logical: 'parens', prop: 'parens' }],
-    'react/no-string-refs': [0, {}],
   },
 }
