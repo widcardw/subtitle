@@ -22,7 +22,7 @@ export default defineComponent({
       <>
         {params.lang
           ? (typeof params.lang === 'string'
-              ? <Speech lang={params.lang} height={parseHeight(params.height)} />
+              ? <Speech lang={params.lang} height={parseHeight(params.height)} textColor={params.textColor as string} shadowColor={params.shadowColor as string} />
               : '')
           : 'No language specified!'}
       </>
